@@ -1,0 +1,6 @@
+<p>main-dashboard works!</p>
+<div *ngFor="let stock of stocks; trackBy:identifyStock">
+    <app-stock-graph [stockSymbol]="stock.symbol" stockLabel="test" [stockValue]="stock.price"></app-stock-graph>
+</div>
+
+<!-- <app-stock-graph [stockSymbol]="stockSymbol" stockLabel="test" [stockValue]="stockValue"></app-stock-graph> -->

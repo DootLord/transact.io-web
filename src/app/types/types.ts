@@ -1,0 +1,1 @@
+export interface stock { symbol: string, price: number };
